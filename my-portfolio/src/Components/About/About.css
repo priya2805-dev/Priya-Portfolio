@@ -1,0 +1,45 @@
+.about-section {
+  padding: 4rem 2rem;
+  background-color: #1e1e2f;
+  color: #ffffff;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.about-me h2,
+.education h2,
+.experience h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #61dafb;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
+
+.about-me p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.education .edu-item,
+.experience .exp-item {
+  margin-bottom: 1.5rem;
+}
+
+.education h3,
+.experience h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.education p,
+.experience ul li {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.experience ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}

@@ -1,0 +1,92 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.skillTitle {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDsc {
+    font-weight: 400;
+    font-size: 1rem;
+    max-width: 51rem;
+    padding: 0.2rem;
+    line-height: 1.6;
+}
+
+.skillBars {
+    margin: 1.5rem auto;
+    width: 100%;
+    max-width: 80%;
+    text-align: left;
+}
+
+.skillBar {
+    display: flex; 
+    align-items: center;
+    margin: 1rem 0; 
+    padding: 1.5rem 2rem; 
+    border-radius: 0.5rem; 
+    background: rgb(50, 50, 50);
+    transition: transform 0.3s ease;
+}
+
+.skillBar:hover {
+    transform: translateY(-5px);
+}
+
+.skillBarImg {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1.5rem;
+}
+
+.skillBarText > p {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+/*  Responsive Design */
+@media (max-width: 1024px) {
+    .skillTitle {
+        font-size: 1.8rem;
+    }
+    .skillBars {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .skillTitle {
+        font-size: 1.6rem;
+    }
+    .skillDsc {
+        font-size: 0.95rem;
+        padding: 0.5rem;
+    }
+    .skillBar {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+    .skillBarImg {
+        margin: 0 0 1rem 0;
+    }
+    .skillBarText > p {
+        font-size: 0.85rem;
+    }
+} 
+
